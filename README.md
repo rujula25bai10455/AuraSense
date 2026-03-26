@@ -16,9 +16,9 @@ AuraSense is an analytics platform that acts as an aura or umbrella over the dat
 
 ## 🚦 Quick Start
 1. ** Clone the Project:**
-```bash
+'''bash
 git clone [https://github.com/rujula25bai10455/AuraSense.git](https://github.com/rujula25bai10455/AuraSense.git)
-cd AuraSense
+cd AuraSense'''
 🛠️ Installation & Setup Guide
 Follow these steps to get AuraSense running on your local machine.
 1. Prerequisities:
