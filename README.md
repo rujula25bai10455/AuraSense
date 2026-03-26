@@ -22,16 +22,16 @@ cd AuraSense
 
 🛠️ Installation & Setup Guide
 Follow these steps to get AuraSense running on your local machine.
-1. Prerequisities:
+-1. Prerequisities:
 Ensure you have Python 3.9 or higher installed . You can check your version by running:
 Bash
 python --version
-2. Clone the repository:
+-2. Clone the repository:
 Open your command prompt or terminal and run:
 Bash
 git clone https://github.com/rujula25bai10455/AuraSense.git
 cd AuraSense
-3. Set up a virtual environment:
+-3. Set up a virtual environment:
 To keep your global python installation clean , create a virtual environment:
 WINDOWS:
 DOS
@@ -41,27 +41,27 @@ MAC/LINUX:
 Bash
 python3 -m venv venv
 source venv/bin/activate
-4. Install dependencies:
+-4. Install dependencies:
 Install the required libraries (Pandas,Streamlit,andPlotly) using the provided requirements file:
 Bash
 pip install -r requirements.txt
-NOTE: If you don't have reqirements file, run: pip install streamlit pandas plotly numpy
+-NOTE: If you don't have reqirements file, run: pip install streamlit pandas plotly numpy
 
 
-🚀 Running the Project:
+#🚀 Running the Project:
 The project consists of two parts: the Data Engine and the Dashboard UI.
-Step1: Generate Sensor data
+-Step1: Generate Sensor data
 Before launching the dashboard , you need to genearte the simulated 24-hour environment data . Run the folloeing command:
 Bash
 python app.py
 Check that a folder named /data has been created with a file called sensor_readings.csv inside it.
-Step2: Launch the dashboard
+-Step2: Launch the dashboard
 Now,start the interactive Streamlit web interface:
 Bash
 streamlit run app.py
-Step3:View in browser
+-Step3:View in browser
 Once the command is running, your terminal will provide a URL . If it dosen't open automatically, copy and paste this into your browser:
-http://localhost:8501
+'''http://localhost:8501'''
 
 
 🛑 Troubleshooting:
