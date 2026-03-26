@@ -16,9 +16,10 @@ AuraSense is an analytics platform that acts as an aura or umbrella over the dat
 
 ## 🚦 Quick Start
 1. ** Clone the Project:**
-'''bash
+2. bash
 git clone [https://github.com/rujula25bai10455/AuraSense.git](https://github.com/rujula25bai10455/AuraSense.git)
-cd AuraSense'''
+cd AuraSense
+
 🛠️ Installation & Setup Guide
 Follow these steps to get AuraSense running on your local machine.
 1. Prerequisities:
@@ -45,6 +46,8 @@ Install the required libraries (Pandas,Streamlit,andPlotly) using the provided r
 Bash
 pip install -r requirements.txt
 NOTE: If you don't have reqirements file, run: pip install streamlit pandas plotly numpy
+
+
 🚀 Running the Project:
 The project consists of two parts: the Data Engine and the Dashboard UI.
 Step1: Generate Sensor data
@@ -59,6 +62,8 @@ streamlit run app.py
 Step3:View in browser
 Once the command is running, your terminal will provide a URL . If it dosen't open automatically, copy and paste this into your browser:
 http://localhost:8501
+
+
 🛑 Troubleshooting:
 1. Command not found: If streamlit is not recognized, try running python -m streamlit run app.py .
 2. Missing data: If the dashboard shows an error, ensure you ran python app.py first to sreate the CSV file.
