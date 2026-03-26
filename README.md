@@ -64,7 +64,7 @@ http://localhost:8501
 2. Missing data: If the dashboard shows an error, ensure you ran python app.py first to sreate the CSV file.
 
 
-        " Developed as a capstone project for the VITyarthi platform to                    demonstrate proficiency in Python Data Analytics and UI Design." 
+        " Developed as a capstone project for the VITyarthi platform to demonstrate proficiency in Python Data Analytics and UI Design." 
 
 
 
